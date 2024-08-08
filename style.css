@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: rgb(5, 86, 153);
+    color: #fff;
+    font-size: 24px;
+}
+.banners{
+    width: 100%;
+}
+.three-lovely-puppies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.text-inbetween{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: rgb(226, 33, 98);
+    height: 310px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text-inbetween p{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 40px;
+   
+    
+
+}
+.text-under-puppies{
+    display: flex;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+.two-pretty-puppies{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    
+    
+  }
+  .two-pretty-puppies img{
+    margin: 20px;
+
+  }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(5, 86, 153);
+    color: #fff;
+    font-size: 28px;
+
+}
